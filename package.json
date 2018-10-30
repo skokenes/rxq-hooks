@@ -1,0 +1,35 @@
+{
+  "name": "rxq-hooks",
+  "version": "0.1.0",
+  "description": "React hooks for RxQ",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skokenes/rxq-hooks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skokenes/rxq-hooks/issues"
+  },
+  "homepage": "https://github.com/skokenes/rxq-hooks#readme",
+  "peerDependencies": {
+    "react": "^16.7.0-alpha",
+    "rxjs": "^6.3.3",
+    "rxq": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.18",
+    "react": "^16.7.0-alpha.0",
+    "rxjs": "^6.3.3",
+    "rxq": "^2.0.2",
+    "typescript": "^3.1.3"
+  },
+  "dependencies": {}
+}

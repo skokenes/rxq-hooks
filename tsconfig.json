@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "lib",
+    "lib": ["es2018", "dom"],
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "typeRoots": [
+      "./node_modules/@types/",
+      "./src/typings"
+    ],
+    "rootDir": "src"
+  },
+  "exclude": [
+    "node_modules",
+    "lib",
+    "*.tgz"
+  ]
+}
